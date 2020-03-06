@@ -1,4 +1,4 @@
-(module DIN41612_B2_3x16_Horizontal (layer F.Cu) (tedit 5E1B0E36)
+(module DIN41612_B2_3x16_Horizontal (layer F.Cu) (tedit 5E4E2837)
   (descr "DIN 41612 connector, type B/2, horizontal, 16 pins wide, 3 rows, full configuration")
   (tags "DIN 41512 IEC 60603 B/2")
   (fp_text reference REF** (at -6.7 8.7) (layer F.SilkS)
@@ -104,8 +104,8 @@
   (pad C9 thru_hole circle (at 20.32 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad C10 thru_hole circle (at 22.86 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad C16 thru_hole circle (at 38.1 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at -5.95 2.54) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 44.05 2.54 180) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -5.65 2.24) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 43.75 2.24 180) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Connector_DIN41612.3dshapes/DIN41612_B2_3x16_Horizontal.step
     (offset (xyz 19.05 12.7 4.064))
     (scale (xyz 1 1 1))

@@ -1,4 +1,4 @@
-(module RJ45_OST_PJ012-8P8CX_Vertical (layer F.Cu) (tedit 5C214F77)
+(module RJ45_OST_PJ012-8P8CX_Vertical (layer F.Cu) (tedit 5E5A64FF)
   (descr "RJ45 vertical connector http://www.on-shore.com/wp-content/uploads/2015/09/PJ012-8P8CX.pdf")
   (tags "RJ45 PJ012")
   (fp_text reference REF** (at 4.45 14) (layer F.SilkS)
@@ -38,9 +38,11 @@
   (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -1.27 6.35) (size 3.65 3.65) (drill 3.45) (layers *.Cu *.SilkS *.Mask))
   (pad "" np_thru_hole circle (at 10.16 6.35) (size 3.65 3.65) (drill 3.45) (layers *.Cu *.SilkS *.Mask))
-  (model ${KISYS3DMOD}/Connector_RJ.3dshapes/RJ45_OST_PJ012-8P8CX_Vertical.wrl
-    (at (xyz 0 0 0))
+  (pad SH thru_hole oval (at -3.355 9.4) (size 1.6 2.6) (drill oval 0.6 1.6) (layers *.Cu *.Mask))
+  (pad SH thru_hole oval (at 12.255 9.4) (size 1.6 2.6) (drill oval 0.6 1.6) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Connector_RJ.3dshapes/RJ45_OST_PJ012-8P8CX_Vertical.step
+    (offset (xyz 4.45 -4.2 8.1))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 180 90))
   )
 )
