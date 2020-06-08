@@ -1,4 +1,4 @@
-(module QFN-24_2.5x3.4mm_P0.4mm (layer F.Cu) (tedit 5E7F5910)
+(module QFN-24_2.5x3.4mm_P0.4mm (layer F.Cu) (tedit 5E95C653)
   (descr "QFN, 24 Pin (https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf#page=39), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py")
   (tags "QFN DFN_QFN")
   (attr smd)
@@ -50,4 +50,9 @@
   (pad 22 smd roundrect (at -0.2 -1.6) (size 0.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 23 smd roundrect (at -0.6 -1.6) (size 0.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 24 smd roundrect (at -1 -1.6) (size 0.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-24_2.5x3.4mm_P0.4mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

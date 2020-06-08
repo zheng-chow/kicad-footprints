@@ -1,5 +1,5 @@
-(module TE_5177983_C1_2x20_P0.8mm_Vertical_SMD (layer F.Cu) (tedit 5E646097)
-  (descr "TE, 5179029, 40 Pins")
+(module TE_5177983_C1_2x20_P0.8mm_Vertical_SMD (layer F.Cu) (tedit 5EBFBF50)
+  (descr "BTB, 0.8mm Pitch, H4.5, 40 Pins")
   (tags "BTB 0.8")
   (attr smd)
   (fp_text reference REF** (at -9.4 -4.6 180) (layer F.SilkS)

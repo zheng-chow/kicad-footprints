@@ -1,4 +1,4 @@
-(module Vishay_PowerPAK_1212-8_Single (layer F.Cu) (tedit 5BD96A8E)
+(module Vishay_PowerPAK_1212-8_Single (layer F.Cu) (tedit 5E9C1010)
   (descr "PowerPAK 1212-8 Single (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72597/72597.pdf)")
   (tags "Vishay PowerPAK 1212-8 Single")
   (attr smd)
@@ -39,9 +39,9 @@
          (xy 1.3725 1.195) (xy 1.3725 0.7875) (xy 0.8625 0.7875) (xy 0.8625 0.5325) (xy 1.3725 0.5325)
          (xy 1.3725 0.1275)) (width 0))
     ))
-  (model ${KISYS3DMOD}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.wrl
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 180 0))
   )
 )

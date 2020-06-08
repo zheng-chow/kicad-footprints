@@ -1,4 +1,4 @@
-(module DIN41612_B2_3x16_Vertical (layer F.Cu) (tedit 5E4E2819)
+(module DIN41612_B2_3x16_Vertical (layer F.Cu) (tedit 5E992184)
   (descr "DIN 41612 connector, type B/2, vertical, 16 pins wide, 3 rows, full configuration")
   (tags "DIN 41512 IEC 60603 B/2")
   (fp_text reference REF** (at 1.27 -9.45) (layer F.SilkS)

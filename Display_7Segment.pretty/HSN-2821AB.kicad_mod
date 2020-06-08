@@ -1,4 +1,4 @@
-(module HSN-2821AB (layer F.Cu) (tedit 5E6F7EE8)
+(module HSN-2821AB (layer F.Cu) (tedit 5EA83202)
   (descr "Dual digit 7 segment red.")
   (tags "Dual digit 7 segment red")
   (fp_text reference REF** (at 3.81 -2.159) (layer F.SilkS)
@@ -35,4 +35,9 @@
   (pad 3 thru_hole circle (at 0 5.08) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Display_7Segment.3dshapes/HSN-2822.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

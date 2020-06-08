@@ -1,4 +1,4 @@
-(module Crystal_SMD_2016-4Pin_2.0x1.6mm (layer F.Cu) (tedit 5A0FD1B2)
+(module Crystal_SMD_2016-4Pin_2.0x1.6mm (layer F.Cu) (tedit 5E95BF91)
   (descr "SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package")
   (tags "SMD SMT crystal")
   (attr smd)
@@ -30,7 +30,7 @@
   (pad 2 smd rect (at 0.7 0.55) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.7 -0.55) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -0.7 -0.55) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.wrl
+  (model ${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
